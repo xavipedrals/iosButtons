@@ -12,6 +12,7 @@
 		5B4276E21C57AA1A002A218F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4276E01C57AA1A002A218F /* Main.storyboard */; };
 		5B4276E41C57AA1A002A218F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4276E31C57AA1A002A218F /* Assets.xcassets */; };
 		5B4276E71C57AA1A002A218F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4276E51C57AA1A002A218F /* LaunchScreen.storyboard */; };
+		5B42770D1C57CEDC002A218F /* VerdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B42770C1C57CEDC002A218F /* VerdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5B4276E31C57AA1A002A218F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B4276E61C57AA1A002A218F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B4276E81C57AA1A002A218F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B42770C1C57CEDC002A218F /* VerdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				5B4276DC1C57AA1A002A218F /* AppDelegate.swift */,
 				5B4276DE1C57AA1A002A218F /* ViewController.swift */,
 				5B4276E01C57AA1A002A218F /* Main.storyboard */,
+				5B42770C1C57CEDC002A218F /* VerdViewController.swift */,
 				5B4276E31C57AA1A002A218F /* Assets.xcassets */,
 				5B4276E51C57AA1A002A218F /* LaunchScreen.storyboard */,
 				5B4276E81C57AA1A002A218F /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B4276DF1C57AA1A002A218F /* ViewController.swift in Sources */,
+				5B42770D1C57CEDC002A218F /* VerdViewController.swift in Sources */,
 				5B4276DD1C57AA1A002A218F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +290,7 @@
 				5B4276ED1C57AA1A002A218F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -19,6 +19,19 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        guard let segueIdentifier = segue.identifier else {
+            return
+        }
+        
+        switch segueIdentifier {
+            case "showVerd":
+            let destination = segue.destinationViewController as! VerdViewController
+            
+        default:break
+        }
+    }
 
 
 }
